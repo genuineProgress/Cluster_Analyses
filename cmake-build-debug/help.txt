@@ -1,0 +1,52 @@
+BINARY {double delta}
+    Creates matrix of incidences for delta
+BUFFER {string operation}
+    Doing operations over the cloud
+    operation = "unload"
+        Unloads buffer to field
+    operation = "add": {int id}
+        Adds cloud with id to buffer
+    operation = "rotate": {double angle}
+        Rotates buffer to angle
+    operation = "shift": {double x} {double y}
+        Shifts buffer to vector (x, y)
+    operation = "zoom": {double k}
+        Zooms buffer to coefficient k from its center
+    operation = "mirror"
+        Reflects the cloud like in mirror
+DELAUNAY
+    Creates Delaunay triangulation on the field
+DBSCAN {int id} {int k}
+        Searches clusters in the field using dbscan algorithm with parameter k using incidences in search numbered id
+EM {int clusters}
+    Search clusters in the field using EM-algorithm
+EXIT
+	Stops the program
+FOREL
+    Realises FOREL-tree algorithm
+GC {double cx} {double cy} {double dx} {double dy} {int len}
+	Generates cloud on the field. Center of the cloud is cx cy, dispersion of the cloud is dx and dy by x and y.
+	The number of points in the cloud is len
+HA
+    Runs hierarchical algorithm on the field
+HISTOGRAM {int p}
+    Saves to histogram_x.txt and histogram_y.txt histogram of distribution the points in cloud.
+    p is number of pieces in histogram
+HELP
+	Shows the list of supported commands
+KMEANS {int clusters}
+    Search clusters in the field using k-means algorithm
+KMCORES {int clusters} {int coresnum}
+    Search clusters in the field using k-means algorithm with cores
+LOG {bool b}
+	Switching writing logs
+	b == 0 means writing, b == 1 means not writing
+	No parameter shows current state of writing logs
+MATRIX
+    Sets field to state readonly and prepares it to be analyzed
+PRINTF {string file_name}
+    Prints the content of the field to file called file_name
+STREE
+    Searches minimal spanning tree for algorithm
+WAVE {int id}
+    Searches clusters in the field using wave-clustering algorithm using incidences in search numbered id

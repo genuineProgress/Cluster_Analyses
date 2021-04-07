@@ -1,0 +1,10 @@
+# help
+
+# matrix
+
+# gc 0 0 1 1 10000
+# binary
+# gc 0 0 1 2 1000000
+gc 0 0 1 1 0
+
+exit

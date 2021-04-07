@@ -1,0 +1,42 @@
+Add time to log recording (both controller's and user's)
+Add more checks in user's commands
+Separate different cases of user's commands in different functions.
+
+Refactor this:
+
+/* The problems are:
+ * - INFOCLUSTERSEARCH (or infocs) should be useful for particular searches and clusters;
+ * - hdbscan
+ * - Symmetric matrices
+ * - Interface::manager should be simplified and separated to little functions
+ * - using c++11 random lib to avoid warnings
+ * - stop creating binary matrix without distance matrix
+ * - mechanics which moves interface to console administrating if there is no EXIT line in script file
+ * - EM-clustering
+ * - k-means with multiple cores
+ * - error in file should throw user to manual input
+ * - kmeans should be separated to little functions
+ * - add final image to all fprintf functions and gnuplot scripts
+ * Атрибуты у класса «Кластер» должны быть следующие:
+  — центр тяжести
+
+  — вектор точек
+
+  — количество точек
+
+  — границы минимального покрывающего прямоугольника
+
+  — диаметр и радиус кластера
+
+Замечание: триангулизация Делоне должна быть реализована как атрибут поля.
+
+ДЗ: Написать структуру для триангулизации Делоне (ввести в соответствующие классы)
+
+и реализовать алгоритм построения и изобразить триангулизацию в GNUPLOT
+
+Сделать правильную структуру текста программы (пункт. 2 в присланном файле)
+
+ ДЗ:  добавить в точку координату функции
+ *complete the plot function in controller
+
+ */
