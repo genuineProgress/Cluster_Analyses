@@ -5,8 +5,9 @@
 #include "Buffer.h"
 #include "Cluster_Search.h"
 #include "TreeNode.h"
-
+class Cluster_Search;
 class Field {
+    friend class Wave_algorithm;
 public:
     friend class Buffer;
     Buffer buf;

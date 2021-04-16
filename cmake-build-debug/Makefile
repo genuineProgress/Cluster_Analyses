@@ -359,6 +359,33 @@ Symm_Matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.s
 .PHONY : Symm_Matrix.cpp.s
 
+Wave_algorithm.o: Wave_algorithm.cpp.o
+
+.PHONY : Wave_algorithm.o
+
+# target to build an object file
+Wave_algorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o
+.PHONY : Wave_algorithm.cpp.o
+
+Wave_algorithm.i: Wave_algorithm.cpp.i
+
+.PHONY : Wave_algorithm.i
+
+# target to preprocess a source file
+Wave_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.i
+.PHONY : Wave_algorithm.cpp.i
+
+Wave_algorithm.s: Wave_algorithm.cpp.s
+
+.PHONY : Wave_algorithm.s
+
+# target to generate assembly for a file
+Wave_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.s
+.PHONY : Wave_algorithm.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -419,6 +446,9 @@ help:
 	@echo "... Symm_Matrix.o"
 	@echo "... Symm_Matrix.i"
 	@echo "... Symm_Matrix.s"
+	@echo "... Wave_algorithm.o"
+	@echo "... Wave_algorithm.i"
+	@echo "... Wave_algorithm.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

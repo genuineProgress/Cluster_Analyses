@@ -3,11 +3,13 @@
 
 #include "Cloud.h"
 #include "TreeNode.h"
+#include "Wave_algorithm.h"
 #define EM_LIMITATION 0.01
 
 class Field;
 
 class Cluster_Search {
+    friend class Wave_algorithm;
 public:
     class Cluster {
     public:

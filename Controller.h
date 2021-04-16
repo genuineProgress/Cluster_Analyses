@@ -3,15 +3,18 @@
 #include "Field.h"
 #include "Cluster_Search.h"
 #include <iostream>
-
+#include "Wave_algorithm.h"
 class Controller {
 private:
     string log_file_name;
     ofstream logger;
     bool write_log;
     void log (const string &s);
-public:
     Field *field_;
+    //static Field *field_;
+    vector <Cluster_Search *>  cluster_searches_;
+    static Wave_algorithm *waveAlgorithm;
+public:
     explicit Controller (bool write_log = true);
     ~Controller ();
     int get_help (int id, string &file_name);
@@ -36,7 +39,6 @@ public:
     int hierarchical_algorithm ();
     int forel ();
     int delaunay ();
-
     int plot();
 };
 

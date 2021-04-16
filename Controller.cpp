@@ -203,7 +203,7 @@ int Controller::wave (int search_id) {
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->wave_clustering (search_id);
+    int err = this->waveAlgorithm->process(this->cluster_searches_,this->field_,search_id);
     if (err == 0) {
         log ("Field is clustered");
         return err;

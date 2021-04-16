@@ -18,6 +18,7 @@ CMakeFiles/ClusterAnalyses.dir/Cluster_Search.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
  /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -27,6 +28,7 @@ CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Field.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
  /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -35,6 +37,7 @@ CMakeFiles/ClusterAnalyses.dir/Field.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
  /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -45,12 +48,22 @@ CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Interface.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Point.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Point.cpp
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
 CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Symm_Matrix.cpp
  /Users/a1/CLionProjects/ClusterAnalyses/Symm_Matrix.h
+CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o
+ /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Point.h
+ /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.cpp
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
  /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -60,4 +73,5 @@ CMakeFiles/ClusterAnalyses.dir/main.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Interface.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/main.cpp

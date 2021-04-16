@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Point.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Point.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Symm_Matrix.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.o"
+  "/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/main.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -21,6 +21,7 @@ class Point {
 private:
     double x_, y_; //coords
     int id_;
+    int value_of_function=0;
     int fprintf (ofstream &out) const;
     static int quantity_;
     static vector<Point *> id_pointers; // vector of pointers because vector of references is not supported

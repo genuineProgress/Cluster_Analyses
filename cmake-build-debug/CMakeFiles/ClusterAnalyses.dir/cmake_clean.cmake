@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Point.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.o"
+  "CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/main.cpp.o"
   "ClusterAnalyses"
   "ClusterAnalyses.pdb"
