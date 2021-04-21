@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ClusterAnalyses.dir/Cloud.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Cluster_Search.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o"
+  "CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Field.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Point.cpp.o"

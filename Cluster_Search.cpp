@@ -43,9 +43,6 @@ void Cluster_Search::create_edges_matrix () {
     }
 }
 
-void Cluster_Search::wave_clustering () {
-
-}
 
 vector<int> Cluster_Search::db_sorting (int density) {
     // counts number of neighbours for all the points
@@ -107,11 +104,6 @@ void Cluster_Search::db_clustering (const vector<int> &state) {
     }
     dbscan_fprintf_type (state);
     //fprintf_clusters();
-}
-
-Cluster_Search Cluster_Search::wave () {
-    wave_clustering ();
-    return *this;
 }
 
 Cluster_Search Cluster_Search::dbscan (int density) {

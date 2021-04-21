@@ -22,7 +22,6 @@ public:
     void create_dist_matrix ();
     const vector<Cluster_Search> &searches () const;
     void create_edges_matrix (double delta,vector <Cluster_Search *> &cluster_searches_);
-    int wave_clustering (int search_id);
     int db_clustering (int search_id, int k);
     int k_means (int clusters_number);
     vector<int> s_tree ();

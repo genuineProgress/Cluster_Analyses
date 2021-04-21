@@ -4,6 +4,7 @@
 #include "Cluster_Search.h"
 #include <iostream>
 #include "Wave_algorithm.h"
+#include "DBscan_algorithm.h"
 class Controller {
 private:
     string log_file_name;
@@ -14,6 +15,7 @@ private:
     //static Field *field_;
     vector <Cluster_Search *>  cluster_searches_;
     Wave_algorithm *waveAlgorithm;
+    DBscan_algorithm *dbscanAlgorithm;
 public:
     explicit Controller (bool write_log = true);
     ~Controller ();

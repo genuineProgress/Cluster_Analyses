@@ -18,7 +18,7 @@ matrix
 binary 0.05
 infocs
 wave 0
-#dbscan 0 5
+dbscan 0 5
 #stree
 #kmeans 5
 #kmcores 5 2

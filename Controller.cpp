@@ -178,7 +178,8 @@ int Controller::dbscan (int search_id, int k) { // 1) what if field is not reado
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->db_clustering (search_id, k);
+   // int err = this->waveAlgorithm->process(this->cluster_searches_,this->field_,search_id);
+    int err = this->dbscanAlgorithm->process (this->cluster_searches_,this->field_,search_id, k);
     if (err == 0) {
         log ("Field is clustered");
         return err;

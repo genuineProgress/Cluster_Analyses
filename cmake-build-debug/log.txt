@@ -33,7 +33,9 @@
 > wave 0
 < Clustering by means of wave algorithm
 < Field is clustered
-> #dbscan 0 5
+> dbscan 0 5
+< Clustering...
+< Field is clustered
 > #stree
 > #kmeans 5
 > #kmcores 5 2

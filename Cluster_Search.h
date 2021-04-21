@@ -29,9 +29,7 @@ public:
     void create_edges_matrix ();
     vector<int> db_sorting (int density);
     void db_clustering (const vector<int> &state);
-    void wave_clustering ();
     const TreeNode<const Point *> *tree_root ();
-    Cluster_Search wave ();
     Cluster_Search dbscan (int density);
     Cluster_Search k_means (int clusters_number);
     Cluster_Search k_means_cores (int clusters_number, int cores_number);

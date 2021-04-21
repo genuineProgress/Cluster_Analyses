@@ -16,14 +16,6 @@ Point.h
 cmath
 -
 
-/Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.cpp
-Cluster_Search.h
-/Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
-Field.h
-/Users/a1/CLionProjects/ClusterAnalyses/Field.h
-utility
--
-
 /Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
 Cloud.h
 /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -32,6 +24,32 @@ TreeNode.h
 Wave_algorithm.h
 /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 
+/Users/a1/CLionProjects/ClusterAnalyses/Controller.cpp
+Controller.h
+/Users/a1/CLionProjects/ClusterAnalyses/Controller.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Controller.h
+Field.h
+/Users/a1/CLionProjects/ClusterAnalyses/Field.h
+Cluster_Search.h
+/Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
+iostream
+-
+Wave_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
+DBscan_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.cpp
+DBscan_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
+vector
+-
+Field.h
+/Users/a1/CLionProjects/ClusterAnalyses/Field.h
+
 /Users/a1/CLionProjects/ClusterAnalyses/Field.h
 Buffer.h
 /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
@@ -39,6 +57,16 @@ Cluster_Search.h
 /Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
 TreeNode.h
 /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp
+Interface.h
+/Users/a1/CLionProjects/ClusterAnalyses/Interface.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Interface.h
+sstream
+-
+Controller.h
+/Users/a1/CLionProjects/ClusterAnalyses/Controller.h
 
 /Users/a1/CLionProjects/ClusterAnalyses/Point.h
 fstream
@@ -52,15 +80,13 @@ cmath
 vector
 -
 
-/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.cpp
-__bit_reference
--
-Wave_algorithm.h
-/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
-
 /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 vector
 -
 Field.h
 /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/main.cpp
+Interface.h
+/Users/a1/CLionProjects/ClusterAnalyses/Interface.h
 
