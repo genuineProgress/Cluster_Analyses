@@ -211,6 +211,7 @@ int Interface::manager (const string &cur_command) {
     } else if (main == "WAVE") {
         int search_id;
         ss >> search_id;
+        show("Clustering by means of wave algorithm");
         int err = cc->wave (search_id);
         if (err == 0) {
             show ("Field is clustered");

@@ -13,7 +13,7 @@ private:
     Field *field_;
     //static Field *field_;
     vector <Cluster_Search *>  cluster_searches_;
-    static Wave_algorithm *waveAlgorithm;
+    Wave_algorithm *waveAlgorithm;
 public:
     explicit Controller (bool write_log = true);
     ~Controller ();

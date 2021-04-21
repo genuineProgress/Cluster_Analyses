@@ -94,10 +94,10 @@ const vector<Cluster_Search> &Field::searches () const {
     return searches_;
 }
 
-void Field::create_edges_matrix (double delta) {
+void Field::create_edges_matrix (double delta, vector<Cluster_Search*> &cluster_searches_) {
     // creating incidence matrix, saving incidence graph to file
-    searches_.emplace_back (this, delta);
-    fprintf_incidence_graph (searches ().back (), searches ().size () - 1);
+    cluster_searches_.push_back(new Cluster_Search(this, delta));
+    //fprintf_incidence_graph (searches ().back (), searches ().size () - 1);
 }
 
 int Field::wave_clustering (int search_id) {

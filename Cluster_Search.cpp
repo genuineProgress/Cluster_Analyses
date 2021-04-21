@@ -60,6 +60,7 @@ void Cluster_Search::wave_clustering () {
                 for (int j = m + 1; j < Point::quantity (); ++j) {
                     if (edges ()[i][j] && !burnt[j]) {
                         next_wave.push_back (j);
+                        burnt[j]=true;
                     }
                 }
             }

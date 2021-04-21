@@ -16,6 +16,14 @@ Point.h
 cmath
 -
 
+/Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.cpp
+Cluster_Search.h
+/Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
+Field.h
+/Users/a1/CLionProjects/ClusterAnalyses/Field.h
+utility
+-
+
 /Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
 Cloud.h
 /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -43,12 +51,6 @@ cmath
 /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
 vector
 -
-
-/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.cpp
-__bit_reference
--
-Wave_algorithm.h
-/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 
 /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 vector

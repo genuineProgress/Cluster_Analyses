@@ -16,12 +16,14 @@ buffer rotate 15
 buffer unload
 matrix
 binary 0.05
-dbscan 0 5
-stree
-kmeans 5
-kmcores 5 2
-em 5
-ha
-forel
-delaunay
-plot
+infocs
+wave 0
+#dbscan 0 5
+#stree
+#kmeans 5
+#kmcores 5 2
+#em 5
+#ha
+#forel
+#delaunay
+#plot

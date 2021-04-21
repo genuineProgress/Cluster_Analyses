@@ -33,7 +33,7 @@ int Wave_algorithm::process(vector<Cluster_Search *> cluster_searches_, Field *f
        * -1 field is not in readonly mode
        * -3 There is no such Cluster_Search
        */
-       if (field->readonly()) {
+       if (!field->readonly()) {
             return -1;
         }
         if (search_id >= cluster_searches_.size ()) {

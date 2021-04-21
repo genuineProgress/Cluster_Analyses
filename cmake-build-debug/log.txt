@@ -1,13 +1,44 @@
-> # help
-> 
-> # matrix
-> 
-> # gc 0 0 1 1 10000
-> # binary
-> # gc 0 0 1 2 1000000
-> gc 0 0 1 1 0
-< Not enough points in the cloud
-Not enough points in the cloud
-> 
-> exit
-< Finishing...
+> # gc 0 0 3 3 250
+> # gc 0 0 4 4 100
+> # gc 0 0.25 3 1 100
+> # buffer add 0
+> # buffer shift 0 -0.5
+> # buffer unload
+> gc 0 0 4 0.5 200
+< Cloud created
+> buffer add 0
+< Cloud №0 added to buffer
+> buffer rotate 15
+< Buffer rotated
+> buffer unload
+< Buffer unloaded to the field
+> buffer rotate 15
+< Buffer rotated
+> buffer unload
+< Buffer unloaded to the field
+> buffer rotate 15
+< Buffer rotated
+> buffer unload
+< Buffer unloaded to the field
+> buffer rotate 15
+< Buffer rotated
+> buffer unload
+< Buffer unloaded to the field
+> matrix
+< Field is readonly now. You can analyze it.
+< Type HELP to see what you can do
+> binary 0.05
+< Incidence matrix is created. Now you can run clustering
+> infocs
+> wave 0
+< Clustering by means of wave algorithm
+< Field is clustered
+> #dbscan 0 5
+> #stree
+> #kmeans 5
+> #kmcores 5 2
+> #em 5
+> #ha
+> #forel
+> #delaunay
+> #plot

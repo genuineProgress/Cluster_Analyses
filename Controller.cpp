@@ -272,7 +272,7 @@ int Controller::incidence_matrix (double delta) {
         return -3;
 
     }
-    field_->create_edges_matrix (delta);
+    field_->create_edges_matrix (delta,this->cluster_searches_);
     return 0;
 }
 
