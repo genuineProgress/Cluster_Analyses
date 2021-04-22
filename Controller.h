@@ -7,6 +7,8 @@
 #include "DBscan_algorithm.h"
 #include "Kmeans_algorithm.h"
 #include "Kmeanswc_algorithm.h"
+#include "EM_algorithm.h"
+#include "Hierarchical_algorithm.h"
 class Controller {
 private:
     string log_file_name;
@@ -20,6 +22,9 @@ private:
     DBscan_algorithm *dbscanAlgorithm;
     Kmeans_algorithm *kmeansAlgorithm;
     Kmeanswc_algorithm *kmeanswcAlgorithm;
+    EM_algorithm *emAlgorithm;
+    Hierarchical_algorithm *hierarchicalAlgorithm;
+
 public:
     explicit Controller (bool write_log = true);
     ~Controller ();

@@ -33,9 +33,7 @@
 > #dbscan 0 5
 > #stree
 > #kmeans 5
-> kmcores 5 2
-< Clustering...
-< Field is clustered
+> #kmcores 5 2
 > #em 5
 > #ha
 > #forel

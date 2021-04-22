@@ -8,7 +8,7 @@ template<class T>
 class TreeNode {
     friend class Field;
     friend class Cluster_Search;
-
+    friend class Hierarchical_algorithm;
 public:
     explicit TreeNode (T v);
     TreeNode (const TreeNode<T> &t);

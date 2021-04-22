@@ -21,7 +21,7 @@ matrix
 #dbscan 0 5
 #stree
 #kmeans 5
-kmcores 5 2
+#kmcores 5 2
 #em 5
 #ha
 #forel

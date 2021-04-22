@@ -278,6 +278,33 @@ DBscan_algorithm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.s
 .PHONY : DBscan_algorithm.cpp.s
 
+EM_algorithm.o: EM_algorithm.cpp.o
+
+.PHONY : EM_algorithm.o
+
+# target to build an object file
+EM_algorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o
+.PHONY : EM_algorithm.cpp.o
+
+EM_algorithm.i: EM_algorithm.cpp.i
+
+.PHONY : EM_algorithm.i
+
+# target to preprocess a source file
+EM_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.i
+.PHONY : EM_algorithm.cpp.i
+
+EM_algorithm.s: EM_algorithm.cpp.s
+
+.PHONY : EM_algorithm.s
+
+# target to generate assembly for a file
+EM_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.s
+.PHONY : EM_algorithm.cpp.s
+
 Field.o: Field.cpp.o
 
 .PHONY : Field.o
@@ -304,6 +331,33 @@ Field.s: Field.cpp.s
 Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Field.cpp.s
 .PHONY : Field.cpp.s
+
+Hierarchical_algorithm.o: Hierarchical_algorithm.cpp.o
+
+.PHONY : Hierarchical_algorithm.o
+
+# target to build an object file
+Hierarchical_algorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o
+.PHONY : Hierarchical_algorithm.cpp.o
+
+Hierarchical_algorithm.i: Hierarchical_algorithm.cpp.i
+
+.PHONY : Hierarchical_algorithm.i
+
+# target to preprocess a source file
+Hierarchical_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.i
+.PHONY : Hierarchical_algorithm.cpp.i
+
+Hierarchical_algorithm.s: Hierarchical_algorithm.cpp.s
+
+.PHONY : Hierarchical_algorithm.s
+
+# target to generate assembly for a file
+Hierarchical_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.s
+.PHONY : Hierarchical_algorithm.cpp.s
 
 Interface.o: Interface.cpp.o
 
@@ -518,9 +572,15 @@ help:
 	@echo "... DBscan_algorithm.o"
 	@echo "... DBscan_algorithm.i"
 	@echo "... DBscan_algorithm.s"
+	@echo "... EM_algorithm.o"
+	@echo "... EM_algorithm.i"
+	@echo "... EM_algorithm.s"
 	@echo "... Field.o"
 	@echo "... Field.i"
 	@echo "... Field.s"
+	@echo "... Hierarchical_algorithm.o"
+	@echo "... Hierarchical_algorithm.i"
+	@echo "... Hierarchical_algorithm.s"
 	@echo "... Interface.o"
 	@echo "... Interface.i"
 	@echo "... Interface.s"

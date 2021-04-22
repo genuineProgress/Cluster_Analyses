@@ -246,6 +246,32 @@ CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.cpp -o CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.s
 
+CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o: CMakeFiles/ClusterAnalyses.dir/flags.make
+CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o: ../EM_algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o -c /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.cpp
+
+CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.cpp > CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.i
+
+CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.cpp -o CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.s
+
+CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o: CMakeFiles/ClusterAnalyses.dir/flags.make
+CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o: ../Hierarchical_algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o -c /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.cpp
+
+CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.cpp > CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.i
+
+CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.cpp -o CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.s
+
 # Object files for target ClusterAnalyses
 ClusterAnalyses_OBJECTS = \
 "CMakeFiles/ClusterAnalyses.dir/main.cpp.o" \
@@ -260,7 +286,9 @@ ClusterAnalyses_OBJECTS = \
 "CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o" \
 "CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o" \
 "CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o" \
-"CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o"
+"CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o" \
+"CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o" \
+"CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o"
 
 # External object files for target ClusterAnalyses
 ClusterAnalyses_EXTERNAL_OBJECTS =
@@ -278,9 +306,11 @@ ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o
 ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o
 ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o
 ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o
+ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o
+ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o
 ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/build.make
 ClusterAnalyses: CMakeFiles/ClusterAnalyses.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ClusterAnalyses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ClusterAnalyses"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ClusterAnalyses.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

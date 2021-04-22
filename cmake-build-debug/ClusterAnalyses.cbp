@@ -110,10 +110,22 @@
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h">
 			<Option target="ClusterAnalyses"/>
 		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.cpp">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.h">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Field.cpp">
 			<Option target="ClusterAnalyses"/>
 		</Unit>
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Field.h">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.cpp">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.h">
 			<Option target="ClusterAnalyses"/>
 		</Unit>
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp">

@@ -338,7 +338,9 @@ int Controller::em (int clusters_number) {
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->em (clusters_number);
+    cluster_searches_.emplace_back(new Cluster_Search(this->field_));
+    int err=emAlgorithm->process(cluster_searches_,field_,clusters_number);
+    //int err = field_->em (clusters_number);
     if (err == 0) {
         log ("Field is clustered");
         return err;
@@ -359,7 +361,9 @@ int Controller::hierarchical_algorithm () {
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->hieararchical_algorithm ();
+    cluster_searches_.emplace_back(new Cluster_Search(this->field_));
+    int err=hierarchicalAlgorithm->process(cluster_searches_,field_);
+   // int err = field_->hieararchical_algorithm ();
     if (err == 0) {
         log ("Field is clustered");
         return err;

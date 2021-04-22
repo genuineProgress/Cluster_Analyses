@@ -3,9 +3,8 @@
 
 #include "Cloud.h"
 #include "TreeNode.h"
-#include "Wave_algorithm.h"
 #define EM_LIMITATION 0.01
-
+#define EPS 0.01
 class Field;
 
 class Cluster_Search {
