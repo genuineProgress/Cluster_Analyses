@@ -5,6 +5,8 @@
 #include <iostream>
 #include "Wave_algorithm.h"
 #include "DBscan_algorithm.h"
+#include "Kmeans_algorithm.h"
+#include "Kmeanswc_algorithm.h"
 class Controller {
 private:
     string log_file_name;
@@ -16,6 +18,8 @@ private:
     vector <Cluster_Search *>  cluster_searches_;
     Wave_algorithm *waveAlgorithm;
     DBscan_algorithm *dbscanAlgorithm;
+    Kmeans_algorithm *kmeansAlgorithm;
+    Kmeanswc_algorithm *kmeanswcAlgorithm;
 public:
     explicit Controller (bool write_log = true);
     ~Controller ();

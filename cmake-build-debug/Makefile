@@ -332,6 +332,60 @@ Interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Interface.cpp.s
 .PHONY : Interface.cpp.s
 
+Kmeans_algorithm.o: Kmeans_algorithm.cpp.o
+
+.PHONY : Kmeans_algorithm.o
+
+# target to build an object file
+Kmeans_algorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o
+.PHONY : Kmeans_algorithm.cpp.o
+
+Kmeans_algorithm.i: Kmeans_algorithm.cpp.i
+
+.PHONY : Kmeans_algorithm.i
+
+# target to preprocess a source file
+Kmeans_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.i
+.PHONY : Kmeans_algorithm.cpp.i
+
+Kmeans_algorithm.s: Kmeans_algorithm.cpp.s
+
+.PHONY : Kmeans_algorithm.s
+
+# target to generate assembly for a file
+Kmeans_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.s
+.PHONY : Kmeans_algorithm.cpp.s
+
+Kmeanswc_algorithm.o: Kmeanswc_algorithm.cpp.o
+
+.PHONY : Kmeanswc_algorithm.o
+
+# target to build an object file
+Kmeanswc_algorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o
+.PHONY : Kmeanswc_algorithm.cpp.o
+
+Kmeanswc_algorithm.i: Kmeanswc_algorithm.cpp.i
+
+.PHONY : Kmeanswc_algorithm.i
+
+# target to preprocess a source file
+Kmeanswc_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.i
+.PHONY : Kmeanswc_algorithm.cpp.i
+
+Kmeanswc_algorithm.s: Kmeanswc_algorithm.cpp.s
+
+.PHONY : Kmeanswc_algorithm.s
+
+# target to generate assembly for a file
+Kmeanswc_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClusterAnalyses.dir/build.make CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.s
+.PHONY : Kmeanswc_algorithm.cpp.s
+
 Point.o: Point.cpp.o
 
 .PHONY : Point.o
@@ -470,6 +524,12 @@ help:
 	@echo "... Interface.o"
 	@echo "... Interface.i"
 	@echo "... Interface.s"
+	@echo "... Kmeans_algorithm.o"
+	@echo "... Kmeans_algorithm.i"
+	@echo "... Kmeans_algorithm.s"
+	@echo "... Kmeanswc_algorithm.o"
+	@echo "... Kmeanswc_algorithm.i"
+	@echo "... Kmeanswc_algorithm.s"
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"

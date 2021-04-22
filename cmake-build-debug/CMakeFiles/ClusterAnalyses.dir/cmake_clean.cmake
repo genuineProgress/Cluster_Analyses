@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Field.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
+  "CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o"
+  "CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Point.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.o"
   "CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o"

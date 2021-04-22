@@ -1,4 +1,2 @@
 Field initialized
 Generated cloud with id0 (0.000000, 0.000000) with dispersion (4.000000;0.500000)
-Field is clustered
-Field is clustered

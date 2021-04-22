@@ -291,7 +291,10 @@ int Controller::k_means (int clusters_number) {
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->k_means (clusters_number);
+
+    cluster_searches_.emplace_back(new Cluster_Search(field_));
+    int err = this->kmeansAlgorithm->process(this->cluster_searches_,this->field_,clusters_number);
+    //int err = field_->k_means (clusters_number);
     if (err == 0) {
         log ("Field is clustered");
         return err;
@@ -312,7 +315,9 @@ int Controller::k_means_cores (int clusters_number, int cores_number) {
         log ("Field doesn't exist");
         return -2;
     }
-    int err = field_->k_means_cores (clusters_number, cores_number);
+    cluster_searches_.emplace_back(new Cluster_Search(this->field_));
+    int err=kmeanswcAlgorithm->process(cluster_searches_,field_,clusters_number,cores_number);
+    //int err = field_->k_means_cores (clusters_number, cores_number);
     if (err == 0) {
         log ("Field is clustered");
         return err;

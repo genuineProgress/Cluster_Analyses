@@ -122,6 +122,18 @@
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Interface.h">
 			<Option target="ClusterAnalyses"/>
 		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.cpp">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.h">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.cpp">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
+		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.h">
+			<Option target="ClusterAnalyses"/>
+		</Unit>
 		<Unit filename="/Users/a1/CLionProjects/ClusterAnalyses/Point.cpp">
 			<Option target="ClusterAnalyses"/>
 		</Unit>

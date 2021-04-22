@@ -9,7 +9,6 @@
 class Field;
 
 class Cluster_Search {
-    friend class Wave_algorithm;
 public:
     class Cluster {
     public:

@@ -39,10 +39,10 @@ Wave_algorithm.h
 /Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.h
 DBscan_algorithm.h
 /Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
-
-/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.cpp
-DBscan_algorithm.h
-/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
+Kmeans_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.h
+Kmeanswc_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.h
 
 /Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
 vector
@@ -67,6 +67,22 @@ sstream
 -
 Controller.h
 /Users/a1/CLionProjects/ClusterAnalyses/Controller.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.h
+vector
+-
+Field.h
+/Users/a1/CLionProjects/ClusterAnalyses/Field.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.cpp
+Kmeanswc_algorithm.h
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.h
+
+/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.h
+vector
+-
+Field.h
+/Users/a1/CLionProjects/ClusterAnalyses/Field.h
 
 /Users/a1/CLionProjects/ClusterAnalyses/Point.h
 fstream

@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Field.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Field.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
+  "/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o"
+  "/Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Point.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Point.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Symm_Matrix.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Symm_Matrix.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Wave_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Wave_algorithm.cpp.o"

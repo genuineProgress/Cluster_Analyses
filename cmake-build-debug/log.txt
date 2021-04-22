@@ -27,18 +27,15 @@
 > matrix
 < Field is readonly now. You can analyze it.
 < Type HELP to see what you can do
-> binary 0.05
-< Incidence matrix is created. Now you can run clustering
-> infocs
-> wave 0
-< Clustering by means of wave algorithm
-< Field is clustered
-> dbscan 0 5
-< Clustering...
-< Field is clustered
+> #binary 0.05
+> #infocs
+> #wave 0
+> #dbscan 0 5
 > #stree
 > #kmeans 5
-> #kmcores 5 2
+> kmcores 5 2
+< Clustering...
+< Field is clustered
 > #em 5
 > #ha
 > #forel

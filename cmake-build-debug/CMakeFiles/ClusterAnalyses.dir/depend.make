@@ -26,6 +26,8 @@ CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Controller.cpp
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Controller.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Kmeans_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Kmeanswc_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Point.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../TreeNode.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Wave_algorithm.h
@@ -57,9 +59,31 @@ CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Field.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Interface.cpp
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Interface.h
+CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Kmeans_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Kmeanswc_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Point.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../TreeNode.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Wave_algorithm.h
+
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Buffer.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Cloud.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Cluster_Search.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Kmeans_algorithm.cpp
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Kmeans_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Point.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../TreeNode.h
+CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o: ../Wave_algorithm.h
+
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Buffer.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Cloud.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Cluster_Search.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Kmeanswc_algorithm.cpp
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Kmeanswc_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Point.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../TreeNode.h
+CMakeFiles/ClusterAnalyses.dir/Kmeanswc_algorithm.cpp.o: ../Wave_algorithm.h
 
 CMakeFiles/ClusterAnalyses.dir/Point.cpp.o: ../Point.cpp
 CMakeFiles/ClusterAnalyses.dir/Point.cpp.o: ../Point.h
@@ -83,6 +107,8 @@ CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Controller.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Field.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Interface.h
+CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Kmeans_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Kmeanswc_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Point.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../TreeNode.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Wave_algorithm.h

@@ -1,7 +1,7 @@
 Add time to log recording (both controller's and user's)
 Add more checks in user's commands
 Separate different cases of user's commands in different functions.
-
+Add check if given cluster search was already used by dbscan or wave algorithm already (actual only for this two algortihms)
 Refactor this:
 
 /* The problems are:
