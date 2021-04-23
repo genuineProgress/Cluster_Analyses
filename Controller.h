@@ -9,6 +9,7 @@
 #include "Kmeanswc_algorithm.h"
 #include "EM_algorithm.h"
 #include "Hierarchical_algorithm.h"
+#include "Forel_algorithm.h"
 class Controller {
 private:
     string log_file_name;
@@ -24,7 +25,7 @@ private:
     Kmeanswc_algorithm *kmeanswcAlgorithm;
     EM_algorithm *emAlgorithm;
     Hierarchical_algorithm *hierarchicalAlgorithm;
-
+    Forel_algorithm *forelAlgorithm;
 public:
     explicit Controller (bool write_log = true);
     ~Controller ();

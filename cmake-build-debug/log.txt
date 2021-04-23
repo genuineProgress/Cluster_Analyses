@@ -35,7 +35,9 @@
 > #kmeans 5
 > #kmcores 5 2
 > #em 5
-> #ha
+> ha
+< Clustering...
+< Field is clustered
 > #forel
 > #delaunay
 > #plot

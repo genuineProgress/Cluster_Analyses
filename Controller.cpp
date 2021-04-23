@@ -35,6 +35,7 @@ int Controller::generate_cloud (int id,
     // -2 if too many many points are in the cloud
     if (field_ == nullptr) {
         field_ = new Field ();
+        hierarchicalAlgorithm=new Hierarchical_algorithm(field_);
         log ("Field initialized");
     }
     if (field_->readonly ()) {
@@ -384,6 +385,8 @@ int Controller::forel () {
         log ("Field doesn't exist");
         return -2;
     }
+    cluster_searches_.emplace_back(new Cluster_Search(this->field_));
+    forelAlgorithm->process(cluster_searches_,field_);
     int err = field_->forel ();
     if (err == 0) {
         log ("Field is clustered");

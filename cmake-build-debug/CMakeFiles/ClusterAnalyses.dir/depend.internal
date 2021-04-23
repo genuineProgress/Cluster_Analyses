@@ -27,6 +27,7 @@ CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Kmeanswc_algorithm.h
@@ -59,6 +60,15 @@ CMakeFiles/ClusterAnalyses.dir/Field.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
  /Users/a1/CLionProjects/ClusterAnalyses/Point.h
  /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o
+ /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Cluster_Search.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.cpp
+ /Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Point.h
+ /Users/a1/CLionProjects/ClusterAnalyses/TreeNode.h
 CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/Buffer.h
  /Users/a1/CLionProjects/ClusterAnalyses/Cloud.h
@@ -76,6 +86,7 @@ CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp
  /Users/a1/CLionProjects/ClusterAnalyses/Interface.h
@@ -125,6 +136,7 @@ CMakeFiles/ClusterAnalyses.dir/main.cpp.o
  /Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Field.h
+ /Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.h
  /Users/a1/CLionProjects/ClusterAnalyses/Interface.h
  /Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.h

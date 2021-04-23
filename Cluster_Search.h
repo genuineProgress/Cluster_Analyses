@@ -6,8 +6,8 @@
 #define EM_LIMITATION 0.01
 #define EPS 0.01
 class Field;
-
 class Cluster_Search {
+    friend class Hierarchial_algorithm;
 public:
     class Cluster {
     public:
@@ -15,7 +15,7 @@ public:
         explicit Cluster (const vector<int> &vec);
         vector<const Point *> points; //It's never read, but really works to save the points
     };
-
+    TreeNode<const Point *> *tree_root_;
     explicit Cluster_Search (Field *field, double delta = 0, int k = 0);
     Cluster_Search (Cluster_Search const &cs);
     Cluster_Search &operator= (Cluster_Search const &cs);
@@ -51,7 +51,7 @@ private:
                             const Point &old_1,
                             const Point &old_2,
                             ofstream &tree);
-    TreeNode<const Point *> *tree_root_;
+
     TreeNode<const Point *> *&ha_get_node_by_coords (int a,
                                                      vector<TreeNode<const Point *> *> &tree_node,
                                                      int &i,

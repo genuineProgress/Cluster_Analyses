@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/a1/CLionProjects/ClusterAnalyses/DBscan_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/DBscan_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/EM_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/EM_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Field.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Field.cpp.o"
+  "/Users/a1/CLionProjects/ClusterAnalyses/Forel_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Hierarchical_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Interface.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o"
   "/Users/a1/CLionProjects/ClusterAnalyses/Kmeans_algorithm.cpp" "/Users/a1/CLionProjects/ClusterAnalyses/cmake-build-debug/CMakeFiles/ClusterAnalyses.dir/Kmeans_algorithm.cpp.o"

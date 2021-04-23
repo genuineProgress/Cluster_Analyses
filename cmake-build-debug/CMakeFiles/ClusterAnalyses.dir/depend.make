@@ -26,6 +26,7 @@ CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Controller.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../EM_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Forel_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Hierarchical_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Kmeans_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Controller.cpp.o: ../Kmeanswc_algorithm.h
@@ -59,6 +60,15 @@ CMakeFiles/ClusterAnalyses.dir/Field.cpp.o: ../Field.h
 CMakeFiles/ClusterAnalyses.dir/Field.cpp.o: ../Point.h
 CMakeFiles/ClusterAnalyses.dir/Field.cpp.o: ../TreeNode.h
 
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Buffer.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Cloud.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Cluster_Search.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Forel_algorithm.cpp
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Forel_algorithm.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../Point.h
+CMakeFiles/ClusterAnalyses.dir/Forel_algorithm.cpp.o: ../TreeNode.h
+
 CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o: ../Buffer.h
 CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o: ../Cloud.h
 CMakeFiles/ClusterAnalyses.dir/Hierarchical_algorithm.cpp.o: ../Cluster_Search.h
@@ -75,6 +85,7 @@ CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Controller.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../EM_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Forel_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Hierarchical_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Interface.cpp
 CMakeFiles/ClusterAnalyses.dir/Interface.cpp.o: ../Interface.h
@@ -124,6 +135,7 @@ CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Controller.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../DBscan_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../EM_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Field.h
+CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Forel_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Hierarchical_algorithm.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Interface.h
 CMakeFiles/ClusterAnalyses.dir/main.cpp.o: ../Kmeans_algorithm.h

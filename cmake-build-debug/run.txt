@@ -23,7 +23,7 @@ matrix
 #kmeans 5
 #kmcores 5 2
 #em 5
-#ha
+ha
 #forel
 #delaunay
 #plot
